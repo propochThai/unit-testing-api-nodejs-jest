@@ -5,6 +5,6 @@ mongoose
   .connect("mongodb://localhost:27017/JestDB", { useNewUrlParser: true })
   .then(() => {
     app.listen(5000, () => {
-      console.log("Server has started port 5000");
+      console.log("Server has started port 5000 test");
     });
   });
